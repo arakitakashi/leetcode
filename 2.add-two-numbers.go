@@ -13,7 +13,15 @@
  * }
  */
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
-    
+   
+}
+
+func listToInteger(list ListNode) int {
+	var string = ""
+	for num := range list {
+		string += string(num)
+	}
+	return 
 }
 // @lc code=end
 
