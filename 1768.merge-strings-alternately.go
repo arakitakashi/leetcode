@@ -10,7 +10,8 @@ func mergeAlternately(word1 string, word2 string) string {
 	n := len(word2)
 	
 	var result strings.Builder
-	i, j := 0, 0
+	
+	i,j := 0, 0
 	
 	for i < m || j < n {
 		if i < m {
@@ -22,6 +23,7 @@ func mergeAlternately(word1 string, word2 string) string {
 			j++
 		}
 	}
+	
 	return result.String()
 }
 // @lc code=end
